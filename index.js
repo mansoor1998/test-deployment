@@ -5,6 +5,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
+    console.log("new changes are made");
     res.send({ message: "running" });
 });
 
